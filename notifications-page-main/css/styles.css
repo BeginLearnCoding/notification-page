@@ -1,0 +1,103 @@
+:root {
+--White: hsl(0, 0%, 100%);
+--Very-light-grayish-blue: hsl(210, 60%, 98%);
+--Light-grayish-blue-1: hsl(211, 68%, 94%);
+--Light-grayish-blue-2: hsl(205, 33%, 90%);
+--Grayish-blue: hsl(219, 14%, 63%);
+--Dark-grayish-blue: hsl(219, 12%, 42%);
+--Very-dark-blue: hsl(224, 21%, 14%);
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+/*moblie first*/
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+    width: 100vw;
+    height: 100vh;
+
+}   
+section {
+    margin: 0 .5rem;
+    padding: 0 .5rem;
+    background-color: var(--White);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    font-weight: 700;
+}
+.headerInfo{
+    font-size: 1.5rem;
+   
+}
+#NotficationsCount {
+    font-size: 1rem;
+    padding: .2rem .8em;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: var(--Very-dark-blue);
+    color: var(--White);
+   
+}
+.markAllReadBtn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--Dark-grayish-blue);
+
+}
+
+.notification-unread {
+    background-color: var(--Light-grayish-blue-1);
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+article {
+    margin: 1rem 0;
+}
+.upper-content {
+    display: flex;
+    gap: .8rem;
+}
+.avatarImg {
+   width: 50px;
+   height: 50px;
+} 
+.userName {
+    font-weight: 700;
+}
+.ownPostName {
+    font-weight: 700;
+}
+.ownPostName-chessclub {
+    font-weight: 700;
+    color: var(--Very-dark-blue);
+}
+.notificationTime {
+    padding-top: .2rem;
+    color: var(--Dark-grayish-blue);
+}
+.notification {
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+.messageBox {
+    border: 1px solid var(--Dark-grayish-blue);
+    color: var(--Dark-grayish-blue);
+    padding: .5rem 1rem;
+    margin-left: 60px;
+}
+.chessclub {
+    width: 50px;
+    height: 50px;
+}
+.attribution {
+    text-align: center;
+    font-size: .5rem;
+}
